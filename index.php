@@ -32,6 +32,7 @@
                 <img src="group.png" />
             </div>
         </div>
+		<div></div>
         <div class="navBar">
             <nav>
                 <ul class="topnav">

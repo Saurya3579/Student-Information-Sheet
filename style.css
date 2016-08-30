@@ -197,6 +197,10 @@ nav ul li {
     float: left;
 }
 
+#clear {
+    clear: both;
+}
+
 
 /*
 .topnav {

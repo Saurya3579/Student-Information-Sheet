@@ -47,14 +47,14 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
-                    <li><a href="asd.php">Management</a>
+                    <li><a href="#">Management</a>
 
                         <ul class="submenu">
                             <li><a href="founderchairman.php">Founder-Chairman</a></li>
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                                                        <li><a href="dean.php">Dean</a></li>
+                            <li><a href="dean.php">Dean</a></li>
 
                         </ul>
                     </li>
@@ -79,7 +79,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
+                        <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
                             <li><a href="pio.php">PIO</a></li>
@@ -91,36 +91,34 @@
                 <div class="bodyDiv">
                     <div class="forAside">
                         <aside id="buttonsAside">
-                            <form class="navBar">
-                                <nav id="navigationBar">
-                                    <ul class="sideBar" style="margin-left:-25%;">
-                                        <li><a href="#">Academics</a></li>
-                                        <li><a href="#">Administration</a></li>
-                                        <li><a href="#">BVC News</a></li>
-                                        <li><a href="#">Forthcoming Event</a></li>
-                                        <li><a href="#">E-mail to students</a></li>
-                                        <li><a href="#">SMS to Parents/Students</a></li>
-                                        <li><a href="#">Recruitment</a></li>
-                                        <li><a href="#">Professional Body</a></li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">Department Library</a></li>
-                                        <li><a href="#">Training</a></li>
-                                        <li><a href="#">Games And Sports</a></li>
-                                        <li><a href="#">Placement</a></li>
-                                        <li><a href="#">Feedback to College</a></li>
-                                        <li><a href="#">Alumini</a></li>
-                                        <li><a href="#">Notices &amp; Circulars</a></li>
-                                    </ul>
-                                </nav>
-                            </form>
+                            <nav id="navigationBar">
+                                <ul class="sideBar" style="margin-left:-25%;">
+                                    <li><a href="#">Academics</a></li>
+                                    <li><a href="#">Administration</a></li>
+                                    <li><a href="#">BVC News</a></li>
+                                    <li><a href="#">Forthcoming Event</a></li>
+                                    <li><a href="#">E-mail to students</a></li>
+                                    <li><a href="#">SMS to Parents/Students</a></li>
+                                    <li><a href="#">Recruitment</a></li>
+                                    <li><a href="#">Professional Body</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Department Library</a></li>
+                                    <li><a href="#">Training</a></li>
+                                    <li><a href="#">Games And Sports</a></li>
+                                    <li><a href="#">Placement</a></li>
+                                    <li><a href="#">Feedback to College</a></li>
+                                    <li><a href="#">Alumini</a></li>
+                                    <li><a href="#">Notices &amp; Circulars</a></li>
+                                </ul>
+                            </nav>
                         </aside>
                     </div>
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
-                        <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h2>The Chairman</h2>
+                        <img src="picsPage/chairman.png" style="width:300px; height:250px;">
+                        <h3>Er.Bonam Venkata Rajesh</h3>
                     </div>
                 </div>
             </center>

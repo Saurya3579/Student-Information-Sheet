@@ -29,7 +29,8 @@
                 <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय
 </h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
-                <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
+                <h3>Affiliated To  JNTUK, Kakinada</h3>
+                <h5>Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997</h5>
                 <?php
                 echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
             ?>
@@ -54,7 +55,7 @@
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                                                        <li><a href="dean.php">Dean</a></li>
+                            <li><a href="dean.php">Dean</a></li>
 
                         </ul>
                     </li>
@@ -79,7 +80,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
+                        <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
                             <li><a href="pio.php">PIO</a></li>
@@ -118,9 +119,9 @@
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
-                        <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h2>Principal</h2>
+                        <img src="picsPage/principal.png" style="width:300px; height:250px;">
+                        <h3>Dr. D SV Prasad</h3>
                     </div>
                 </div>
             </center>

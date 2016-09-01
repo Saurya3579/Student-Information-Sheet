@@ -47,7 +47,7 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
-                    <li><a href="asd.php">Management</a>
+                    <li><a href="#">Management</a>
 
                         <ul class="submenu">
                             <li><a href="founderchairman.php">Founder-Chairman</a></li>
@@ -79,7 +79,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
+                        <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
                             <li><a href="pio.php">PIO</a></li>
@@ -118,9 +118,9 @@
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
-                        <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h2>The Vice Chairman</h2>
+                        <img src="picsPage/viceChairman.png" style="width:300px; height:250px;">
+                        <h3>Mr. Bonam Krishna Satish</h3>
                     </div>
                 </div>
             </center>

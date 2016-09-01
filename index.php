@@ -26,10 +26,13 @@
                 <img src="round.png" />
             </div>
             <div id="asideCont">
-                <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय
-</h1>
+                <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय</h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
-                <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
+                <h3>Affiliated To  JNTUK, Kakinada</h3>
+                <h5>Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997</h5>
+                <?php
+                //echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
+            ?>
             </div>
             <div class="imageRight">
                 <img src="group.png" />
@@ -50,16 +53,17 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
-                    <li><a href="asd.php">Management</a>
+                    <li><a href="#">Management</a>
 
                         <ul class="submenu">
                             <li><a href="founderchairman.php">Founder-Chairman</a></li>
-                            <li><a href="#">Secreatary</a></li>
-                            <li><a href="#">Chairman</a></li>
-                            <li><a href="#">Vice-Chairman</a></li>
+                            <li><a href="secretary.php">Secretary</a></li>
+                            <li><a href="chairman.php">Chairman</a></li>
+                            <li><a href="vicechairman.php">Vice-Chairman</a></li>
+                            <li><a href="dean.php">Dean</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Principal</a></li>
+                    <li><a href="principal.php">Principal</a></li>
                     <li><a href="faculty.php">Faculty</a>
                         <ul class="submenu1">
                             <li><a href="#">CSE</a></li>
@@ -69,7 +73,7 @@
                             <li><a href="#">ECE</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Students</a></li>
+                    <li><a href="index.php">Students</a></li>
                     <li><a href="#"> Departments</a>
                         <ul class="submenu1">
                             <li><a href="Department.php">CSE</a></li>
@@ -80,12 +84,10 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
-                            <li><a href="#">CSE</a></li>
-                            <li><a href="#">CE</a></li>
-                            <li><a href="#">ME</a></li>
-                            <li><a href="#">EEE</a></li>
-                            <li><a href="#">ECE</a></li>
+                        <ul class="submenu1">
+                            <li><a href="naac.php">NAAC</a></li>
+                            <li><a href="nba.php">NBA</a></li>
+                            <li><a href="pio.php">PIO</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Help</a></li>
@@ -94,32 +96,30 @@
                 <div class="bodyDiv">
                     <div class="forAside">
                         <aside id="buttonsAside">
-                            <form class="navBar">
-                                <nav id="navigationBar">
-                                    <ul class="sideBar">
-                                        <li><a href="#">Academics</a></li>
-                                        <li><a href="#">Administration</a></li>
-                                        <li><a href="#">BVC News</a></li>
-                                        <li><a href="#">Forthcoming Event</a></li>
-                                        <li><a href="#">E-mail to students</a></li>
-                                        <li><a href="#">SMS to Parents/Students</a></li>
-                                        <li><a href="#">Recruitment</a></li>
-                                        <li><a href="#">Professional Body</a></li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">Department Library</a></li>
-                                        <li><a href="#">Training</a></li>
-                                        <li><a href="#">Games And Sports</a></li>
-                                        <li><a href="#">Placement</a></li>
-                                        <li><a href="#">Feedback to College</a></li>
-                                        <li><a href="#">Alumini</a></li>
-                                        <li><a href="#">Notices &amp; Circulars</a></li>
-                                    </ul>
-                                </nav>
-                            </form>
+                            <nav id="navigationBar">
+                                <ul class="sideBar" style="margin-left:-90px;">
+                                    <li><a href="#">Academics</a></li>
+                                    <li><a href="#">Administration</a></li>
+                                    <li><a href="#">BVC News</a></li>
+                                    <li><a href="#">Forthcoming Event</a></li>
+                                    <li><a href="#">E-mail to students</a></li>
+                                    <li><a href="#">SMS to Parents/Students</a></li>
+                                    <li><a href="#">Professional Body</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Department Library</a></li>
+                                    <li><a href="#">Training</a></li>
+                                    <li><a href="#">Recruitment</a></li>
+                                    <li><a href="#">Placement</a></li>
+                                    <li><a href="#">Games And Sports</a></li>
+                                    <li><a href="#">Feedback to College</a></li>
+                                    <li><a href="#">Alumini</a></li>
+                                    <li><a href="#">Notices &amp; Circulars</a></li>
+                                </ul>
+                            </nav>
                         </aside>
                     </div>
                     <div class="centralDiv">
-                        <br>
+                        <br><br>
                         <h4>In the service of the society for last 20 years.<br> Our Motto Is to impart Quality Education.</h4><br>
                         <h2>The Department of Computer Science and Engineering.</h2>
                         <h3 class="page ">Welcome To The Student Portal.</h3>
@@ -156,12 +156,13 @@
 
 
                 </div>
-                <footer id="bottom-part">
+                <footer id="bottom_part">
                     <p class="newFooter"> Copyright &copy; -2016</p>
                     <p class="newFoot">BVC Engineering College @ CSE</p>
 
                 </footer>
-
+            </center>
+        </div>
     </body>
 
 </html>

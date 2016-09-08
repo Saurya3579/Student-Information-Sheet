@@ -103,7 +103,7 @@
                                         <li><a href="#">Administration</a></li>
                                         <li><a href="#">BVC News</a></li>
                                         <li><a href="#">Forthcoming Event</a></li>
-                                        <li><a href="#">E-mail to students</a></li>
+                                <li><a href="emailnew.php">E-mail to students</a></li>
                                         <li><a href="#">SMS to Parents/Students</a></li>
                                         <li><a href="#">Recruitment</a></li>
                                         <li><a href="#">Professional Body</a></li>
@@ -112,7 +112,7 @@
                                         <li><a href="#">Training</a></li>
                                         <li><a href="#">Games And Sports</a></li>
                                         <li><a href="#">Placement</a></li>
-                                        <li><a href="#">Feedback to College</a></li>
+                                <li><a href="feedback.php">Feedback to College</a></li>
                                         <li><a href="alumini.php">Alumini</a></li>
                                         <li><a href="#">Notices &amp; Circulars</a></li>
                                     </ul>

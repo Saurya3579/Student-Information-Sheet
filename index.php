@@ -108,8 +108,8 @@
                                 <li><a href="#">Administration</a></li>
                                 <li><a href="#">BVC News</a></li>
                                 <li><a href="forthcoming.php">Forthcoming Event</a></li>
-                                <li><a href="#">E-mail to students</a></li>
-                                <li><a href="#">SMS to Parents/Students</a></li>
+                                <li><a href="emailnew.php">E-mail to students</a></li>
+                                <li><a href="sms.php">SMS to Parents/Students</a></li>
                                 <li><a href="#">Professional Body</a></li>
                                 <li><a href="#">Projects</a></li>
                                 <li><a href="#">Department Library</a></li>
@@ -117,7 +117,7 @@
                                 <li><a href="#">Games And Sports</a></li>
                                 <li><a href="#">Recruitment</a></li>
                                 <li><a href="#">Placement</a></li>
-                                <li><a href="#">Feedback to College</a></li>
+                                <li><a href="feedback.php">Feedback to College</a></li>
                                 <li><a href="alumini.php">Alumini</a></li>
                                 <li><a href="#">Notices &amp; Circulars</a></li>
                             </ul>
@@ -152,7 +152,7 @@
                                 </div>
                             </form>
                             <br>
-                            <p class="text--center">New user?<a href="registrationPage.php" style="color:black;"> Please Register here ...  </a> <span class="fontawesome-arrow-right"></span></p>
+                            <p class="text--center">New user?<a href="registrationPage.php" style="color:black;"> Please Register here ...</a> </p>
                         </div>
                     </center>
                 </div>
@@ -214,8 +214,19 @@
         </script>
     </body>
     <footer id="footer">
-        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
-        <h4 id="right">BVCEC</h4>
+        <?php
+                mysql_connect("localhost","root","") or die(mysql_error());
+                mysql_select_db("viewcounter") or die(mysql_error());
+                mysql_query("UPDATE viewcounter SET views=views+1 WHERE id='1';");
+                $retriveViews = mysql_query("SELECT views FROM viewcounter where id = '1';");
+                while($row = mysql_fetch_array($retriveViews))
+                {
+                    echo "<h2 style = 'margin:-3% 3% 0 0;text-align:right;'>".$row['views']." Total Visitors</h2>";
+                }
+                mysql_close();
+            ?><br><br>
+            <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
+            <h4 id="right">BVCEC</h4>
     </footer>
 
 </html>
